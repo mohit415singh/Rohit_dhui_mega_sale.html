@@ -9,47 +9,96 @@
   <style>
     body {
       font-family: 'Sono', sans-serif;
+      
+    }
+    .pricing-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      gap: 2rem;
+
+    }
+    .pricing-plan{
+      background-color: grey;
+      flex: 1;
+      max-width: 400px;
+      padding: 20px;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .plan-title{
+      font-size: 30px;
+      font-weight: bold
+    }
+    .plan-price{
+      font-size: 40px;
+      font-weight: bold;
+    }
+    .plan-features{
+      font-size: 20px;
+      list-style: none;
+      margin-bottom: 20px;
+    }
+    .plan-button{
+      background-color: orangered;
+      padding: 10px;
+
     }
 
     /* Hint: What can you do with a media query and flexbox? */
     @media (max-width: 1250px) {
+      .pricing-container{
+        flex-direction: column;
+        height: 100%;
+      }
       
+    }
+    html{
+      background-color: antiquewhite;
+    }
+    h2{
+      color: blueviolet;
     }
   </style>
 </head>
 
 <body>
+  <h1>Mega sale!!!</h1>
+  <h2>Ab Paye Rohit Ke Dhui pe Bhari discount.(upto 50%)</h2>
   <div class="pricing-container">
     <div class="pricing-plan">
       <div class="plan-title">Basic</div>
-      <div class="plan-price">$9.99/month</div>
+      <div class="plan-price"><strike>$9.99/month</strike> $0.99/month</div>
       <ul class="plan-features">
-        <li>✅ 10GB Storage</li>
-        <li>✅ 1 User</li>
-        <li>🚫 Support</li>
+        <li>✅ everyday 2 time service</li>
+        <li>✅ everyday 2 time fullbody massage.</li>
+        <li>🚫 No BDSM in this amount.</li>
       </ul>
-      <button class="plan-button">Sign Up</a>
+      <button class="plan-button"><a href="./WhatsApp Image 2023-12-27 at 20.10.42_9b018ba3.jpg">Sign Up</a>
     </div>
     <div class="pricing-plan">
       <div class="plan-title">Standard</div>
-      <div class="plan-price">$19.99/month</div>
+      <div class="plan-price"><strike>$19.99/month</strike> $1.99/month</div>
       <ul class="plan-features">
-        <li>✅ 50GB Storage</li>
-        <li>✅ 5 Users</li>
-        <li>✅ Phone &amp; Email Support</li>
+        <li>✅ 4 times service in a day</li>
+        <li>✅ 4 times full body massage in a day.</li>
+        <li>✅ BDSM available.</li>
       </ul>
-      <button class="plan-button">Sign Up</a>
+      <button class="plan-button"><a href="./WhatsApp Image 2023-12-27 at 20.10.42_9b018ba3.jpg">Sign Up</a>
     </div>
     <div class="pricing-plan">
       <div class="plan-title">Premium</div>
-      <div class="plan-price">$49.99/month</div>
+      <div class="plan-price"><strike>$49.99/month</strike> $2.99/month</div>
       <ul class="plan-features">
-        <li>✅ 100GB Storage</li>
-        <li>✅ 10 Users</li>
-        <li>✅ 24/7 Support</li>
+        <li>✅ Unlimited use </li>
+        <li>✅ Unlimited massage</li>
+        <li>✅ 24/7 Support in BDSM , use it as your wish.</li>
       </ul>
-      <button class="plan-button">Sign Up</a>
+      <button class="plan-button"> <a href="./WhatsApp Image 2023-12-27 at 20.10.42_9b018ba3.jpg">Sign Up</a>
+        
     </div>
+    
   </div>
 
 </body>
